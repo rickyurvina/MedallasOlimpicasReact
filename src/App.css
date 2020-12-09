@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-container section {
+  max-width: 800px;
+}
+
+th.edit-medals {
+  cursor: pointer;
+}
+
+th.edit-medals:hover {
+  color: rgb(124, 124, 124);
+}
+
+.medal-form-container {
+  margin: 0;
+  text-align: left;
+  height: 100px;
+}
+
+.country-selected-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.country-selected-wrapper span{ 
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+form.medal-form {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 92%;
+}
+
+.update-container {
+  display: flex;
+  align-items: center;
+}
+
+.update-container input { 
+  width: 30%;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.medal-input {
+  padding: 8px 15px;
+  background: #fff;
+  border: 0px solid #dbdbdb;
+  margin-right: 10px;
+}
+
+.country-update {
+  animation: blinker 2s linear 0.1s;
+}
+
+@keyframes blinker {
+  20%{
+    opacity: 0;
+  }
+}

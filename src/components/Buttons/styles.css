@@ -1,0 +1,38 @@
+.medal-btn {
+    position:relative;
+    padding: 6px 15px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    border: 2px solid #207cca;
+    background-color:#207cca;
+    color: #fff;
+  }
+  
+  .primary-btn:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+  }
+  
+  .default-btn {
+    color: #fff;
+    border: 2px solid #f4f5f7;
+    background-color:#292c2e;
+  }
+  
+  .default-btn:hover  {
+    background-color:#fafafa;
+    color:#292c2e;
+  }
+  
+  .danger-btn {
+    color: #fff;
+    border: 2px solid #f7f4f5;
+    background-color:#e70d3c;
+  }
+  
+  .danger-btn:hover  {
+    background-color:#a30909;
+    color:#fff;
+  }
